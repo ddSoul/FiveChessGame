@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3D5BD71DB6201E0056968C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BD61DB6201E0056968C /* main.m */; };
+		EE3D5BDA1DB6201E0056968C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BD91DB6201E0056968C /* AppDelegate.m */; };
+		EE3D5BDD1DB6201E0056968C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BDC1DB6201E0056968C /* ViewController.m */; };
+		EE3D5BE01DB6201E0056968C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3D5BDE1DB6201E0056968C /* Main.storyboard */; };
+		EE3D5BE21DB6201E0056968C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3D5BE11DB6201E0056968C /* Assets.xcassets */; };
+		EE3D5BE51DB6201E0056968C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3D5BE31DB6201E0056968C /* LaunchScreen.storyboard */; };
+		EE3D5BF01DB6201E0056968C /* FiveChessGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BEF1DB6201E0056968C /* FiveChessGameTests.m */; };
+		EE3D5BFB1DB6201E0056968C /* FiveChessGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BFA1DB6201E0056968C /* FiveChessGameUITests.m */; };
+		EE3D5C0F1DB6205E0056968C /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5C0A1DB6205E0056968C /* MyPoint.m */; };
+		EE3D5C101DB6205E0056968C /* PlayData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5C0C1DB6205E0056968C /* PlayData.m */; };
+		EE3D5C111DB6205E0056968C /* PlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5C0E1DB6205E0056968C /* PlayManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE3D5BEC1DB6201E0056968C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3D5BCA1DB6201E0056968C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3D5BD11DB6201E0056968C;
+			remoteInfo = FiveChessGame;
+		};
+		EE3D5BF71DB6201E0056968C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3D5BCA1DB6201E0056968C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3D5BD11DB6201E0056968C;
+			remoteInfo = FiveChessGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE3D5BD21DB6201E0056968C /* FiveChessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveChessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3D5BD61DB6201E0056968C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE3D5BD81DB6201E0056968C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE3D5BD91DB6201E0056968C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE3D5BDB1DB6201E0056968C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE3D5BDC1DB6201E0056968C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE3D5BDF1DB6201E0056968C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3D5BE11DB6201E0056968C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3D5BE41DB6201E0056968C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE3D5BE61DB6201E0056968C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3D5BEB1DB6201E0056968C /* FiveChessGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveChessGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3D5BEF1DB6201E0056968C /* FiveChessGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveChessGameTests.m; sourceTree = "<group>"; };
+		EE3D5BF11DB6201E0056968C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3D5BF61DB6201E0056968C /* FiveChessGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveChessGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3D5BFA1DB6201E0056968C /* FiveChessGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveChessGameUITests.m; sourceTree = "<group>"; };
+		EE3D5BFC1DB6201E0056968C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3D5C091DB6205E0056968C /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		EE3D5C0A1DB6205E0056968C /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		EE3D5C0B1DB6205E0056968C /* PlayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayData.h; sourceTree = "<group>"; };
+		EE3D5C0C1DB6205E0056968C /* PlayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayData.m; sourceTree = "<group>"; };
+		EE3D5C0D1DB6205E0056968C /* PlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayManager.h; sourceTree = "<group>"; };
+		EE3D5C0E1DB6205E0056968C /* PlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3D5BCF1DB6201E0056968C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3D5BE81DB6201E0056968C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3D5BF31DB6201E0056968C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3D5BC91DB6201E0056968C = {
+			isa = PBXGroup;
+			children = (
+				EE3D5BD41DB6201E0056968C /* FiveChessGame */,
+				EE3D5BEE1DB6201E0056968C /* FiveChessGameTests */,
+				EE3D5BF91DB6201E0056968C /* FiveChessGameUITests */,
+				EE3D5BD31DB6201E0056968C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3D5BD31DB6201E0056968C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D5BD21DB6201E0056968C /* FiveChessGame.app */,
+				EE3D5BEB1DB6201E0056968C /* FiveChessGameTests.xctest */,
+				EE3D5BF61DB6201E0056968C /* FiveChessGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3D5BD41DB6201E0056968C /* FiveChessGame */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D5C081DB6205E0056968C /* Manager */,
+				EE3D5BD81DB6201E0056968C /* AppDelegate.h */,
+				EE3D5BD91DB6201E0056968C /* AppDelegate.m */,
+				EE3D5BDB1DB6201E0056968C /* ViewController.h */,
+				EE3D5BDC1DB6201E0056968C /* ViewController.m */,
+				EE3D5BDE1DB6201E0056968C /* Main.storyboard */,
+				EE3D5BE11DB6201E0056968C /* Assets.xcassets */,
+				EE3D5BE31DB6201E0056968C /* LaunchScreen.storyboard */,
+				EE3D5BE61DB6201E0056968C /* Info.plist */,
+				EE3D5BD51DB6201E0056968C /* Supporting Files */,
+			);
+			path = FiveChessGame;
+			sourceTree = "<group>";
+		};
+		EE3D5BD51DB6201E0056968C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D5BD61DB6201E0056968C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE3D5BEE1DB6201E0056968C /* FiveChessGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D5BEF1DB6201E0056968C /* FiveChessGameTests.m */,
+				EE3D5BF11DB6201E0056968C /* Info.plist */,
+			);
+			path = FiveChessGameTests;
+			sourceTree = "<group>";
+		};
+		EE3D5BF91DB6201E0056968C /* FiveChessGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D5BFA1DB6201E0056968C /* FiveChessGameUITests.m */,
+				EE3D5BFC1DB6201E0056968C /* Info.plist */,
+			);
+			path = FiveChessGameUITests;
+			sourceTree = "<group>";
+		};
+		EE3D5C081DB6205E0056968C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D5C091DB6205E0056968C /* MyPoint.h */,
+				EE3D5C0A1DB6205E0056968C /* MyPoint.m */,
+				EE3D5C0B1DB6205E0056968C /* PlayData.h */,
+				EE3D5C0C1DB6205E0056968C /* PlayData.m */,
+				EE3D5C0D1DB6205E0056968C /* PlayManager.h */,
+				EE3D5C0E1DB6205E0056968C /* PlayManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3D5BD11DB6201E0056968C /* FiveChessGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3D5BFF1DB6201E0056968C /* Build configuration list for PBXNativeTarget "FiveChessGame" */;
+			buildPhases = (
+				EE3D5BCE1DB6201E0056968C /* Sources */,
+				EE3D5BCF1DB6201E0056968C /* Frameworks */,
+				EE3D5BD01DB6201E0056968C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveChessGame;
+			productName = FiveChessGame;
+			productReference = EE3D5BD21DB6201E0056968C /* FiveChessGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE3D5BEA1DB6201E0056968C /* FiveChessGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3D5C021DB6201E0056968C /* Build configuration list for PBXNativeTarget "FiveChessGameTests" */;
+			buildPhases = (
+				EE3D5BE71DB6201E0056968C /* Sources */,
+				EE3D5BE81DB6201E0056968C /* Frameworks */,
+				EE3D5BE91DB6201E0056968C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3D5BED1DB6201E0056968C /* PBXTargetDependency */,
+			);
+			name = FiveChessGameTests;
+			productName = FiveChessGameTests;
+			productReference = EE3D5BEB1DB6201E0056968C /* FiveChessGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE3D5BF51DB6201E0056968C /* FiveChessGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3D5C051DB6201E0056968C /* Build configuration list for PBXNativeTarget "FiveChessGameUITests" */;
+			buildPhases = (
+				EE3D5BF21DB6201E0056968C /* Sources */,
+				EE3D5BF31DB6201E0056968C /* Frameworks */,
+				EE3D5BF41DB6201E0056968C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3D5BF81DB6201E0056968C /* PBXTargetDependency */,
+			);
+			name = FiveChessGameUITests;
+			productName = FiveChessGameUITests;
+			productReference = EE3D5BF61DB6201E0056968C /* FiveChessGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3D5BCA1DB6201E0056968C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = dxl;
+				TargetAttributes = {
+					EE3D5BD11DB6201E0056968C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3T7PG2G445;
+						ProvisioningStyle = Automatic;
+					};
+					EE3D5BEA1DB6201E0056968C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3T7PG2G445;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE3D5BD11DB6201E0056968C;
+					};
+					EE3D5BF51DB6201E0056968C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3T7PG2G445;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE3D5BD11DB6201E0056968C;
+					};
+				};
+			};
+			buildConfigurationList = EE3D5BCD1DB6201E0056968C /* Build configuration list for PBXProject "FiveChessGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3D5BC91DB6201E0056968C;
+			productRefGroup = EE3D5BD31DB6201E0056968C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3D5BD11DB6201E0056968C /* FiveChessGame */,
+				EE3D5BEA1DB6201E0056968C /* FiveChessGameTests */,
+				EE3D5BF51DB6201E0056968C /* FiveChessGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3D5BD01DB6201E0056968C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3D5BE51DB6201E0056968C /* LaunchScreen.storyboard in Resources */,
+				EE3D5BE21DB6201E0056968C /* Assets.xcassets in Resources */,
+				EE3D5BE01DB6201E0056968C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3D5BE91DB6201E0056968C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3D5BF41DB6201E0056968C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3D5BCE1DB6201E0056968C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3D5C0F1DB6205E0056968C /* MyPoint.m in Sources */,
+				EE3D5BDD1DB6201E0056968C /* ViewController.m in Sources */,
+				EE3D5BDA1DB6201E0056968C /* AppDelegate.m in Sources */,
+				EE3D5C111DB6205E0056968C /* PlayManager.m in Sources */,
+				EE3D5BD71DB6201E0056968C /* main.m in Sources */,
+				EE3D5C101DB6205E0056968C /* PlayData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3D5BE71DB6201E0056968C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3D5BF01DB6201E0056968C /* FiveChessGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3D5BF21DB6201E0056968C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3D5BFB1DB6201E0056968C /* FiveChessGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE3D5BED1DB6201E0056968C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3D5BD11DB6201E0056968C /* FiveChessGame */;
+			targetProxy = EE3D5BEC1DB6201E0056968C /* PBXContainerItemProxy */;
+		};
+		EE3D5BF81DB6201E0056968C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3D5BD11DB6201E0056968C /* FiveChessGame */;
+			targetProxy = EE3D5BF71DB6201E0056968C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE3D5BDE1DB6201E0056968C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3D5BDF1DB6201E0056968C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE3D5BE31DB6201E0056968C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3D5BE41DB6201E0056968C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3D5BFD1DB6201E0056968C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE3D5BFE1DB6201E0056968C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3D5C001DB6201E0056968C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T7PG2G445;
+				INFOPLIST_FILE = FiveChessGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE3D5C011DB6201E0056968C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T7PG2G445;
+				INFOPLIST_FILE = FiveChessGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE3D5C031DB6201E0056968C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3T7PG2G445;
+				INFOPLIST_FILE = FiveChessGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveChessGame.app/FiveChessGame";
+			};
+			name = Debug;
+		};
+		EE3D5C041DB6201E0056968C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3T7PG2G445;
+				INFOPLIST_FILE = FiveChessGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveChessGame.app/FiveChessGame";
+			};
+			name = Release;
+		};
+		EE3D5C061DB6201E0056968C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3T7PG2G445;
+				INFOPLIST_FILE = FiveChessGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FiveChessGame;
+			};
+			name = Debug;
+		};
+		EE3D5C071DB6201E0056968C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3T7PG2G445;
+				INFOPLIST_FILE = FiveChessGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FiveChessGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3D5BCD1DB6201E0056968C /* Build configuration list for PBXProject "FiveChessGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3D5BFD1DB6201E0056968C /* Debug */,
+				EE3D5BFE1DB6201E0056968C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3D5BFF1DB6201E0056968C /* Build configuration list for PBXNativeTarget "FiveChessGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3D5C001DB6201E0056968C /* Debug */,
+				EE3D5C011DB6201E0056968C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3D5C021DB6201E0056968C /* Build configuration list for PBXNativeTarget "FiveChessGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3D5C031DB6201E0056968C /* Debug */,
+				EE3D5C041DB6201E0056968C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3D5C051DB6201E0056968C /* Build configuration list for PBXNativeTarget "FiveChessGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3D5C061DB6201E0056968C /* Debug */,
+				EE3D5C071DB6201E0056968C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE3D5BCA1DB6201E0056968C /* Project object */;
+}

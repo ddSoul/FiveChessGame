@@ -11,7 +11,9 @@
 #import "PlayManager.h"
 #import "GameViewController.h"
 
+
 @interface ViewController ()
+
 @property (strong, nonatomic) IBOutlet UITextField *x;
 @property (strong, nonatomic) IBOutlet UITextField *y;
 - (IBAction)add:(UIButton *)sender;
@@ -21,9 +23,11 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 
@@ -57,4 +61,6 @@
     [self presentViewController:preVc animated:YES completion:nil];
 
 }
+
+
 @end

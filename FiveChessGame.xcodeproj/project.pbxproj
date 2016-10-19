@@ -15,11 +15,18 @@
 		EE3D5BE51DB6201E0056968C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3D5BE31DB6201E0056968C /* LaunchScreen.storyboard */; };
 		EE3D5BF01DB6201E0056968C /* FiveChessGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BEF1DB6201E0056968C /* FiveChessGameTests.m */; };
 		EE3D5BFB1DB6201E0056968C /* FiveChessGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BFA1DB6201E0056968C /* FiveChessGameUITests.m */; };
-		EE3D5C0F1DB6205E0056968C /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5C0A1DB6205E0056968C /* MyPoint.m */; };
-		EE3D5C101DB6205E0056968C /* PlayData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5C0C1DB6205E0056968C /* PlayData.m */; };
-		EE3D5C111DB6205E0056968C /* PlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5C0E1DB6205E0056968C /* PlayManager.m */; };
 		EE5FEB951DB734E700051710 /* GameViews.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB941DB734E700051710 /* GameViews.m */; };
 		EE5FEB981DB7378400051710 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB971DB7378400051710 /* GameViewController.m */; };
+		EE5FEBA11DB7549700051710 /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB9B1DB7549700051710 /* MyPoint.m */; };
+		EE5FEBA21DB7549700051710 /* PlayData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB9D1DB7549700051710 /* PlayData.m */; };
+		EE5FEBA31DB7549700051710 /* PlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB9F1DB7549700051710 /* PlayManager.m */; };
+		EE5FEBAC1DB7557D00051710 /* UDPSendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBAB1DB7557D00051710 /* UDPSendManager.m */; };
+		EE5FEBAF1DB7559100051710 /* UDPReciveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBAE1DB7559100051710 /* UDPReciveManager.m */; };
+		EE5FEBB71DB7560200051710 /* DeveiceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBB21DB7560200051710 /* DeveiceDataModel.m */; };
+		EE5FEBB81DB7560200051710 /* IPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBB41DB7560200051710 /* IPHelper.m */; };
+		EE5FEBB91DB7560200051710 /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBB61DB7560200051710 /* NetWorkHelper.m */; };
+		EE5FEBC41DB7618B00051710 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBC11DB7618B00051710 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EE5FEBC51DB7618B00051710 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBC31DB7618B00051710 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +63,31 @@
 		EE3D5BF61DB6201E0056968C /* FiveChessGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveChessGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3D5BFA1DB6201E0056968C /* FiveChessGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveChessGameUITests.m; sourceTree = "<group>"; };
 		EE3D5BFC1DB6201E0056968C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE3D5C091DB6205E0056968C /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
-		EE3D5C0A1DB6205E0056968C /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
-		EE3D5C0B1DB6205E0056968C /* PlayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayData.h; sourceTree = "<group>"; };
-		EE3D5C0C1DB6205E0056968C /* PlayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayData.m; sourceTree = "<group>"; };
-		EE3D5C0D1DB6205E0056968C /* PlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayManager.h; sourceTree = "<group>"; };
-		EE3D5C0E1DB6205E0056968C /* PlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayManager.m; sourceTree = "<group>"; };
 		EE5FEB931DB734E700051710 /* GameViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViews.h; sourceTree = "<group>"; };
 		EE5FEB941DB734E700051710 /* GameViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViews.m; sourceTree = "<group>"; };
 		EE5FEB961DB7378400051710 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		EE5FEB971DB7378400051710 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		EE5FEB9A1DB7549700051710 /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
+		EE5FEB9B1DB7549700051710 /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
+		EE5FEB9C1DB7549700051710 /* PlayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayData.h; sourceTree = "<group>"; };
+		EE5FEB9D1DB7549700051710 /* PlayData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayData.m; sourceTree = "<group>"; };
+		EE5FEB9E1DB7549700051710 /* PlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayManager.h; sourceTree = "<group>"; };
+		EE5FEB9F1DB7549700051710 /* PlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayManager.m; sourceTree = "<group>"; };
+		EE5FEBA81DB754FD00051710 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EE5FEBAA1DB7557D00051710 /* UDPSendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPSendManager.h; sourceTree = "<group>"; };
+		EE5FEBAB1DB7557D00051710 /* UDPSendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPSendManager.m; sourceTree = "<group>"; };
+		EE5FEBAD1DB7559100051710 /* UDPReciveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPReciveManager.h; sourceTree = "<group>"; };
+		EE5FEBAE1DB7559100051710 /* UDPReciveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPReciveManager.m; sourceTree = "<group>"; };
+		EE5FEBB11DB7560200051710 /* DeveiceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveiceDataModel.h; sourceTree = "<group>"; };
+		EE5FEBB21DB7560200051710 /* DeveiceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveiceDataModel.m; sourceTree = "<group>"; };
+		EE5FEBB31DB7560200051710 /* IPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHelper.h; sourceTree = "<group>"; };
+		EE5FEBB41DB7560200051710 /* IPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHelper.m; sourceTree = "<group>"; };
+		EE5FEBB51DB7560200051710 /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
+		EE5FEBB61DB7560200051710 /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
+		EE5FEBC01DB7618B00051710 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		EE5FEBC11DB7618B00051710 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		EE5FEBC21DB7618B00051710 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		EE5FEBC31DB7618B00051710 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +122,7 @@
 				EE3D5BEE1DB6201E0056968C /* FiveChessGameTests */,
 				EE3D5BF91DB6201E0056968C /* FiveChessGameUITests */,
 				EE3D5BD31DB6201E0056968C /* Products */,
+				EE5FEBA71DB754FD00051710 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,8 +139,9 @@
 		EE3D5BD41DB6201E0056968C /* FiveChessGame */ = {
 			isa = PBXGroup;
 			children = (
+				EE5FEB991DB7549700051710 /* GameKernel */,
+				EE5FEBA01DB7549700051710 /* UDPManager */,
 				EE5FEB921DB734C600051710 /* Views */,
-				EE3D5C081DB6205E0056968C /* Manager */,
 				EE3D5BD81DB6201E0056968C /* AppDelegate.h */,
 				EE3D5BD91DB6201E0056968C /* AppDelegate.m */,
 				EE3D5BDB1DB6201E0056968C /* ViewController.h */,
@@ -159,19 +183,6 @@
 			path = FiveChessGameUITests;
 			sourceTree = "<group>";
 		};
-		EE3D5C081DB6205E0056968C /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				EE3D5C091DB6205E0056968C /* MyPoint.h */,
-				EE3D5C0A1DB6205E0056968C /* MyPoint.m */,
-				EE3D5C0B1DB6205E0056968C /* PlayData.h */,
-				EE3D5C0C1DB6205E0056968C /* PlayData.m */,
-				EE3D5C0D1DB6205E0056968C /* PlayManager.h */,
-				EE3D5C0E1DB6205E0056968C /* PlayManager.m */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
 		EE5FEB921DB734C600051710 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +190,56 @@
 				EE5FEB941DB734E700051710 /* GameViews.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EE5FEB991DB7549700051710 /* GameKernel */ = {
+			isa = PBXGroup;
+			children = (
+				EE5FEB9A1DB7549700051710 /* MyPoint.h */,
+				EE5FEB9B1DB7549700051710 /* MyPoint.m */,
+				EE5FEB9C1DB7549700051710 /* PlayData.h */,
+				EE5FEB9D1DB7549700051710 /* PlayData.m */,
+				EE5FEB9E1DB7549700051710 /* PlayManager.h */,
+				EE5FEB9F1DB7549700051710 /* PlayManager.m */,
+			);
+			path = GameKernel;
+			sourceTree = "<group>";
+		};
+		EE5FEBA01DB7549700051710 /* UDPManager */ = {
+			isa = PBXGroup;
+			children = (
+				EE5FEBB01DB7560200051710 /* tool */,
+				EE5FEBAA1DB7557D00051710 /* UDPSendManager.h */,
+				EE5FEBAB1DB7557D00051710 /* UDPSendManager.m */,
+				EE5FEBAD1DB7559100051710 /* UDPReciveManager.h */,
+				EE5FEBAE1DB7559100051710 /* UDPReciveManager.m */,
+			);
+			path = UDPManager;
+			sourceTree = "<group>";
+		};
+		EE5FEBA71DB754FD00051710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5FEBA81DB754FD00051710 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE5FEBB01DB7560200051710 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				EE5FEBC01DB7618B00051710 /* AsyncSocket.h */,
+				EE5FEBC11DB7618B00051710 /* AsyncSocket.m */,
+				EE5FEBC21DB7618B00051710 /* AsyncUdpSocket.h */,
+				EE5FEBC31DB7618B00051710 /* AsyncUdpSocket.m */,
+				EE5FEBB11DB7560200051710 /* DeveiceDataModel.h */,
+				EE5FEBB21DB7560200051710 /* DeveiceDataModel.m */,
+				EE5FEBB31DB7560200051710 /* IPHelper.h */,
+				EE5FEBB41DB7560200051710 /* IPHelper.m */,
+				EE5FEBB51DB7560200051710 /* NetWorkHelper.h */,
+				EE5FEBB61DB7560200051710 /* NetWorkHelper.m */,
+			);
+			path = tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,14 +378,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5FEBA21DB7549700051710 /* PlayData.m in Sources */,
+				EE5FEBA31DB7549700051710 /* PlayManager.m in Sources */,
+				EE5FEBA11DB7549700051710 /* MyPoint.m in Sources */,
+				EE5FEBAF1DB7559100051710 /* UDPReciveManager.m in Sources */,
+				EE5FEBB91DB7560200051710 /* NetWorkHelper.m in Sources */,
 				EE5FEB981DB7378400051710 /* GameViewController.m in Sources */,
 				EE5FEB951DB734E700051710 /* GameViews.m in Sources */,
-				EE3D5C0F1DB6205E0056968C /* MyPoint.m in Sources */,
 				EE3D5BDD1DB6201E0056968C /* ViewController.m in Sources */,
 				EE3D5BDA1DB6201E0056968C /* AppDelegate.m in Sources */,
-				EE3D5C111DB6205E0056968C /* PlayManager.m in Sources */,
+				EE5FEBB71DB7560200051710 /* DeveiceDataModel.m in Sources */,
+				EE5FEBB81DB7560200051710 /* IPHelper.m in Sources */,
 				EE3D5BD71DB6201E0056968C /* main.m in Sources */,
-				EE3D5C101DB6205E0056968C /* PlayData.m in Sources */,
+				EE5FEBAC1DB7557D00051710 /* UDPSendManager.m in Sources */,
+				EE5FEBC51DB7618B00051710 /* AsyncUdpSocket.m in Sources */,
+				EE5FEBC41DB7618B00051710 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,8 +541,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3T7PG2G445;
 				INFOPLIST_FILE = FiveChessGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaowu.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -485,8 +554,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3T7PG2G445;
 				INFOPLIST_FILE = FiveChessGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.FiveChessGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaowu.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

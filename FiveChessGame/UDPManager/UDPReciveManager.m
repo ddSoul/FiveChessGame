@@ -2,7 +2,7 @@
 //  UDPReciveManager.m
 //  FiveChessGame
 //
-//  Created by 邓西亮 on 16/10/19.
+//  Created by ddSoul on 16/10/19.
 //  Copyright © 2016年 dxl. All rights reserved.
 //
 
@@ -47,6 +47,7 @@ static NSInteger deveiceTag;
     NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     
     NSString *IPAdress = [host componentsSeparatedByString:@"::ffff:"].lastObject;
+    [[NSUserDefaults standardUserDefaults] setValue:IPAdress forKey:@"otherIP"];
     
     if ([IPAdress isEqualToString:[IPHelper deviceIPAdress]]) {
         //过滤来自本机的消息

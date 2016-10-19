@@ -2,7 +2,7 @@
 //  UDPSendManager.h
 //  FiveChessGame
 //
-//  Created by 邓西亮 on 16/10/19.
+//  Created by ddSoul on 16/10/19.
 //  Copyright © 2016年 dxl. All rights reserved.
 //
 

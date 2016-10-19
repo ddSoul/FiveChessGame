@@ -63,11 +63,11 @@
                     NSLog(@"棋子坐标添加");
                     
                     NSString *buttonTagstr = [NSString stringWithFormat:@"%ld",(long)btn.tag];
-                    [[UDPSendManager shareManager] SendManagerWith:buttonTagstr WithIP:@"255.255.255.255"];
+                    [[UDPSendManager shareManager] SendManagerWith:buttonTagstr WithIP:[[NSUserDefaults standardUserDefaults] valueForKey:@"otherIP"]];
                     
                     if ([[PlayManager shareManager] finalWinAtPoint:point]) {
                         NSLog(@"赢了");
-                        [[UDPSendManager shareManager] SendManagerWith:@"win" WithIP:@"255.255.255.255"];
+                        [[UDPSendManager shareManager] SendManagerWith:@"win" WithIP:[[NSUserDefaults standardUserDefaults] valueForKey:@"otherIP"]];
                         [self win];
                     }
                 }

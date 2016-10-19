@@ -21,4 +21,5 @@ typedef NS_ENUM(NSInteger, Role) {
 @property (nonatomic, assign) Role role;
 
 
+
 @end

@@ -99,16 +99,32 @@
 {
     int count = 0;
     
-    //数组内坐标排序
-    NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:nil ascending:YES];
+    //数组内坐标排序??排序会出错？什么原因
+//    NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:nil ascending:YES];
+//    
+//    NSArray *sortArray = [NSArray arrayWithObjects:descriptor,nil];
+//    
+//    NSArray *sortedArray = [array sortedArrayUsingDescriptors:sortArray];
     
-    NSArray *sortArray = [NSArray arrayWithObjects:descriptor,nil];
-    
-    NSArray *sortedArray = [array sortedArrayUsingDescriptors:sortArray];
-    
-    for (int i = 0; i < sortedArray.count -1 ; i++) {
+    NSComparator finderSort = ^(id string1,id string2){
         
-            if (([sortedArray[i+1] intValue] - [sortedArray[i] intValue]) == 1) {
+        if ([string1 integerValue] > [string2 integerValue]) {
+            return (NSComparisonResult)NSOrderedDescending;
+        }else if ([string1 integerValue] < [string2 integerValue]){
+            return (NSComparisonResult)NSOrderedAscending;
+        }
+        else
+            return (NSComparisonResult)NSOrderedSame;
+    };
+    
+    //数组排序：
+    NSArray *resultArray = [array sortedArrayUsingComparator:finderSort];
+    
+    
+    for (int i = 0; i < resultArray.count -1 ; i++) {
+        
+        // ==?这个值更具自己的坐标系来写
+            if (([resultArray[i+1] intValue] - [resultArray[i] intValue]) == 30) {
                 count ++;
                 if (count == 4) {
                     return YES;

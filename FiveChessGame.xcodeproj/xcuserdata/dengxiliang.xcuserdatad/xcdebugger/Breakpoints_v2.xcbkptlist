@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535305.625038"
+            timestampString = "498547945.610154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "-equeToSub:"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "-get135coordinateAtPoint:ofAllPoint:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535305.625038"
+            timestampString = "498547947.042246"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "-equeToSub:"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-get45coordinateAtPoint:ofAllPoint:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535305.625038"
+            timestampString = "498547948.378384"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "-equeToSub:"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-getverticallcoordinateAtPoint:ofAllPoint:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535305.625038"
+            timestampString = "498547952.450474"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "-equeToSub:"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-getHorizontalcoordinateAtPoint:ofAllPoint:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535362.306422"
+            timestampString = "498547955.114549"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -90,76 +90,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535636.100104"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-get45coordinateAtPoint:ofAllPoint:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535764.345208"
+            timestampString = "498547986.219653"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
             endingLineNumber = "54"
             landmarkName = "-getHorizontalcoordinateAtPoint:ofAllPoint:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498535870.770829"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "-getverticallcoordinateAtPoint:ofAllPoint:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498536356.486954"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "-get135coordinateAtPoint:ofAllPoint:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FiveChessGame/Manager/PlayManager.m"
-            timestampString = "498536389.377129"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "-get45coordinateAtPoint:ofAllPoint:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

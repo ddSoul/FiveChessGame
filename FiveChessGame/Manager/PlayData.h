@@ -15,8 +15,10 @@
 
 + (instancetype)shareDataManager;
 
-- (BOOL)addPoint:(CGPoint)coordinate atRole:(Role)role;
+- (BOOL)addMyPoint:(MyPoint *)coordinate;
 
 - (NSArray *)getPointArrayAtRole:(Role)role;
+
+- (void)removePlayManagerData;
 
 @end

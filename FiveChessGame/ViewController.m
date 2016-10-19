@@ -9,11 +9,13 @@
 #import "ViewController.h"
 #import "PlayData.h"
 #import "PlayManager.h"
+#import "GameViewController.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *x;
 @property (strong, nonatomic) IBOutlet UITextField *y;
 - (IBAction)add:(UIButton *)sender;
+- (IBAction)paly:(UIButton *)sender;
 
 @end
 
@@ -40,12 +42,19 @@
     point.y = pointY;
     point.role = mine;
     
-    if ([[PlayData shareDataManager] addPoint:CGPointMake(pointX, pointY) atRole:mine]) {
+    if ([[PlayData shareDataManager] addMyPoint:point]) {
         NSLog(@"棋子坐标添加");
         
         if ([[PlayManager shareManager] finalWinAtPoint:point]) {
             NSLog(@"赢了");
         }
     }
+  }
+
+- (IBAction)paly:(UIButton *)sender {
+    
+    GameViewController *preVc = [[GameViewController alloc] init];
+    [self presentViewController:preVc animated:YES completion:nil];
+
 }
 @end

@@ -22,7 +22,7 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zdk-CY-04B">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="to9-kh-qVQ"/>
+                                    <constraint firstAttribute="width" constant="97" id="lGA-Tx-LcP"/>
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -35,7 +35,7 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Akc-g9-bhz">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="26" id="7tm-ih-mPq"/>
+                                    <constraint firstAttribute="width" constant="26" id="dFM-Ju-nlf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -43,7 +43,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="y:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zna-Ua-83j">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="26" id="Ly5-Oa-GNU"/>
+                                    <constraint firstAttribute="width" constant="26" id="Wld-Fm-ZNG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -51,30 +51,43 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URh-oG-rpB">
                                 <color key="backgroundColor" red="0.97254908080000002" green="0.36470589040000001" blue="0.1294117719" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="add">
+                                <state key="normal" title="test">
                                     <color key="titleColor" red="0.91420243020000003" green="0.94337910349999998" blue="0.88502575689999996" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hPt-lY-XVh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xm2-3g-2WY">
+                                <color key="backgroundColor" red="0.3626387747" green="0.76195004109999998" blue="0.82858758219999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="玩一把？">
+                                    <color key="titleColor" red="0.97254908080000002" green="0.36470589040000001" blue="0.1294117719" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tiB-Y0-YU0"/>
+                                    <action selector="paly:" destination="BYZ-38-t0r" eventType="touchUpInside" id="doX-dJ-8Dk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Akc-g9-bhz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="76" id="4SA-Ow-eo7"/>
-                            <constraint firstItem="Akc-g9-bhz" firstAttribute="baseline" secondItem="Zna-Ua-83j" secondAttribute="baseline" id="576-rs-dLu"/>
-                            <constraint firstItem="URh-oG-rpB" firstAttribute="top" secondItem="Akc-g9-bhz" secondAttribute="bottom" constant="23" id="DgJ-jz-2IT"/>
-                            <constraint firstItem="Zna-Ua-83j" firstAttribute="leading" secondItem="zdk-CY-04B" secondAttribute="trailing" constant="51" id="Ez5-cU-8sE"/>
-                            <constraint firstItem="xIE-Xy-axS" firstAttribute="trailing" secondItem="URh-oG-rpB" secondAttribute="trailing" id="Fcy-Xm-z80"/>
-                            <constraint firstItem="Akc-g9-bhz" firstAttribute="leading" secondItem="URh-oG-rpB" secondAttribute="leading" id="Ihf-J5-duP"/>
-                            <constraint firstItem="Akc-g9-bhz" firstAttribute="firstBaseline" secondItem="Zna-Ua-83j" secondAttribute="firstBaseline" id="VH4-Uq-Pz3"/>
-                            <constraint firstItem="zdk-CY-04B" firstAttribute="leading" secondItem="Akc-g9-bhz" secondAttribute="trailing" constant="17" id="cIq-nd-Mfd"/>
-                            <constraint firstItem="zdk-CY-04B" firstAttribute="baseline" secondItem="xIE-Xy-axS" secondAttribute="baseline" id="eg1-OP-xHt"/>
-                            <constraint firstItem="Akc-g9-bhz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="hzM-Sn-c36"/>
-                            <constraint firstItem="Zna-Ua-83j" firstAttribute="bottom" secondItem="xIE-Xy-axS" secondAttribute="bottom" id="mHb-Ms-Kkx"/>
-                            <constraint firstItem="xIE-Xy-axS" firstAttribute="leading" secondItem="Zna-Ua-83j" secondAttribute="trailing" constant="8" symbolic="YES" id="sPL-Qe-eov"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xIE-Xy-axS" secondAttribute="trailing" constant="13" id="suS-98-9CI"/>
-                            <constraint firstItem="Zna-Ua-83j" firstAttribute="top" secondItem="xIE-Xy-axS" secondAttribute="top" id="yrl-ck-AiV"/>
+                            <constraint firstItem="xIE-Xy-axS" firstAttribute="leading" secondItem="Zna-Ua-83j" secondAttribute="trailing" constant="8" symbolic="YES" id="0x8-sB-Xdo"/>
+                            <constraint firstItem="Akc-g9-bhz" firstAttribute="baseline" secondItem="Zna-Ua-83j" secondAttribute="baseline" id="3wk-XQ-dAm"/>
+                            <constraint firstItem="Akc-g9-bhz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="76" id="5b1-Va-5eD"/>
+                            <constraint firstItem="Akc-g9-bhz" firstAttribute="firstBaseline" secondItem="Zna-Ua-83j" secondAttribute="firstBaseline" id="8jQ-l2-L8C"/>
+                            <constraint firstItem="Akc-g9-bhz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="F5D-Zb-PsG"/>
+                            <constraint firstItem="Xm2-3g-2WY" firstAttribute="top" secondItem="URh-oG-rpB" secondAttribute="bottom" constant="28" id="GC2-KU-0wv"/>
+                            <constraint firstItem="zdk-CY-04B" firstAttribute="leading" secondItem="Akc-g9-bhz" secondAttribute="trailing" constant="17" id="Of3-LR-4jt"/>
+                            <constraint firstItem="Zna-Ua-83j" firstAttribute="bottom" secondItem="xIE-Xy-axS" secondAttribute="bottom" id="PMs-d1-z3J"/>
+                            <constraint firstItem="zdk-CY-04B" firstAttribute="baseline" secondItem="xIE-Xy-axS" secondAttribute="baseline" id="Pzk-HS-11L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xIE-Xy-axS" secondAttribute="trailing" constant="13" id="QZB-HF-rYk"/>
+                            <constraint firstItem="URh-oG-rpB" firstAttribute="trailing" secondItem="Xm2-3g-2WY" secondAttribute="trailing" id="RCZ-ak-yES"/>
+                            <constraint firstItem="Zna-Ua-83j" firstAttribute="top" secondItem="xIE-Xy-axS" secondAttribute="top" id="Vp7-Dn-V1a"/>
+                            <constraint firstItem="Akc-g9-bhz" firstAttribute="leading" secondItem="URh-oG-rpB" secondAttribute="leading" id="iDZ-N8-UVZ"/>
+                            <constraint firstItem="xIE-Xy-axS" firstAttribute="trailing" secondItem="URh-oG-rpB" secondAttribute="trailing" id="qYH-qT-1vt"/>
+                            <constraint firstItem="Zna-Ua-83j" firstAttribute="leading" secondItem="zdk-CY-04B" secondAttribute="trailing" constant="51" id="sgJ-WR-s6A"/>
+                            <constraint firstItem="URh-oG-rpB" firstAttribute="top" secondItem="Akc-g9-bhz" secondAttribute="bottom" constant="23" id="vFd-F2-1AQ"/>
+                            <constraint firstItem="URh-oG-rpB" firstAttribute="leading" secondItem="Xm2-3g-2WY" secondAttribute="leading" id="zbG-wD-ign"/>
                         </constraints>
                     </view>
                     <connections>

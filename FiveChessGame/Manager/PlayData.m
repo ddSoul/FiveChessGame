@@ -33,13 +33,13 @@
     return manager;
 }
 
-- (BOOL)addPoint:(CGPoint)coordinate atRole:(Role)role
+- (BOOL)addMyPoint:(MyPoint *)coordinate
 {
     MyPoint *point = [[MyPoint alloc] init];
     point.x = coordinate.x;
     point.y = coordinate.y;
-    point.role = role;
-    if (role == mine) {
+    point.role = coordinate.role;
+    if (point.role == mine) {
         [self.mineMutableArray addObject:point];
     }
     return YES;
@@ -51,6 +51,12 @@
         return self.mineMutableArray;
     }
     return self.otherMutaleArray;
+}
+
+- (void)removePlayManagerData
+{
+    [self.mineMutableArray removeAllObjects];
+    [self.otherMutaleArray removeAllObjects];
 }
 
 - (NSMutableArray *)mineMutableArray

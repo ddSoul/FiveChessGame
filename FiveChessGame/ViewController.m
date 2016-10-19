@@ -35,10 +35,16 @@
     
     CGFloat pointX = [self.x.text floatValue];
     CGFloat pointY = [self.y.text floatValue];
+    MyPoint *point = [[MyPoint alloc] init];
+    point.x = pointX;
+    point.y = pointY;
+    point.role = mine;
+    
     if ([[PlayData shareDataManager] addPoint:CGPointMake(pointX, pointY) atRole:mine]) {
-        NSLog(@"数据添加成功");
-        if ([[PlayManager shareManager] finalWinAtRole:mine]) {
-            NSLog(@"赢了啊 哈哈哈哈");
+        NSLog(@"棋子坐标添加");
+        
+        if ([[PlayManager shareManager] finalWinAtPoint:point]) {
+            NSLog(@"赢了");
         }
     }
 }

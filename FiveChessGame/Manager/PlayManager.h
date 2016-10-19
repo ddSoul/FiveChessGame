@@ -14,7 +14,7 @@
 
 + (instancetype)shareManager;
 
-- (BOOL)finalWinAtRole:(Role)role;
+- (BOOL)finalWinAtPoint:(MyPoint *)point;
 
 
 @end

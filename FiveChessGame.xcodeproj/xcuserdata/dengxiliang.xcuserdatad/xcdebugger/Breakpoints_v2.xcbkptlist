@@ -153,54 +153,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FiveChessGame/UDPManager/UDPReciveManager.m"
-            timestampString = "498563871.55477"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "-onUdpSocket:didReceiveData:withTag:fromHost:port:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[UDPReciveManager onUdpSocket:didReceiveData:withTag:fromHost:port:]"
-                  moduleName = "FiveChessGame"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dengxiliang/Desktop/FiveChessGame/FiveChessGame/UDPManager/UDPReciveManager.m"
-                  timestampString = "498563189.739403"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "832">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[UDPReciveManager onUdpSocket:didReceiveData:withTag:fromHost:port:]"
-                  moduleName = "FiveChessGame"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dengxiliang/Desktop/FiveChessGame/FiveChessGame/UDPManager/UDPReciveManager.m"
-                  timestampString = "498563189.740795"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "844">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "FiveChessGame/GameViewController.m"
             timestampString = "498562961.086124"
             startingColumnNumber = "9223372036854775807"

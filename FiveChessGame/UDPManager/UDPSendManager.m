@@ -52,8 +52,9 @@ static AsyncUdpSocket * sendSouket;
     
 }
 -(void)SendFirstManagerWith{
-    
-    NSString *str = [NSString stringWithFormat:@"firs%@ My IP:%@ myname:%@",[IPHelper deviceMAKAdress],[IPHelper deviceIPAdress],[[UIDevice alloc] init].name];
+
+//    NSString *str = [NSString stringWithFormat:@"fi%@ mIP:%@ Devname:%@",[IPHelper deviceMAKAdress],[IPHelper deviceIPAdress],[[UIDevice alloc] init].name];
+    NSString *str = [NSString stringWithFormat:@"Devname:%@",[[UIDevice alloc] init].name];
     
     [sendSouket sendData:[str dataUsingEncoding:NSUTF8StringEncoding]
                   toHost: @"255.255.255.255" port:8005 withTimeout:-1 tag:1];

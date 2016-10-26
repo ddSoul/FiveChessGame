@@ -10,7 +10,7 @@
 #import "PlayData.h"
 #import "PlayManager.h"
 #import "GameViewController.h"
-
+#import "PlayerListViewController.h"
 
 @interface ViewController ()
 
@@ -33,7 +33,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 
@@ -57,7 +57,7 @@
 
 - (IBAction)paly:(UIButton *)sender {
     
-    GameViewController *preVc = [[GameViewController alloc] init];
+    PlayerListViewController *preVc = [[PlayerListViewController alloc] init];
     [self presentViewController:preVc animated:YES completion:nil];
 
 }

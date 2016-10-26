@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3CB1BB1DC07754008D0895 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3CB1BA1DC07754008D0895 /* PlayerListViewController.m */; };
 		EE3D5BD71DB6201E0056968C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BD61DB6201E0056968C /* main.m */; };
 		EE3D5BDA1DB6201E0056968C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BD91DB6201E0056968C /* AppDelegate.m */; };
 		EE3D5BDD1DB6201E0056968C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BDC1DB6201E0056968C /* ViewController.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE3CB1B91DC07754008D0895 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		EE3CB1BA1DC07754008D0895 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
 		EE3D5BD21DB6201E0056968C /* FiveChessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveChessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3D5BD61DB6201E0056968C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE3D5BD81DB6201E0056968C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 				EE3D5BDC1DB6201E0056968C /* ViewController.m */,
 				EE5FEB961DB7378400051710 /* GameViewController.h */,
 				EE5FEB971DB7378400051710 /* GameViewController.m */,
+				EE3CB1B91DC07754008D0895 /* PlayerListViewController.h */,
+				EE3CB1BA1DC07754008D0895 /* PlayerListViewController.m */,
 				EE3D5BDE1DB6201E0056968C /* Main.storyboard */,
 				EE3D5BE11DB6201E0056968C /* Assets.xcassets */,
 				EE3D5BE31DB6201E0056968C /* LaunchScreen.storyboard */,
@@ -391,6 +396,7 @@
 				EE5FEBB81DB7560200051710 /* IPHelper.m in Sources */,
 				EE3D5BD71DB6201E0056968C /* main.m in Sources */,
 				EE5FEBAC1DB7557D00051710 /* UDPSendManager.m in Sources */,
+				EE3CB1BB1DC07754008D0895 /* PlayerListViewController.m in Sources */,
 				EE5FEBC51DB7618B00051710 /* AsyncUdpSocket.m in Sources */,
 				EE5FEBC41DB7618B00051710 /* AsyncSocket.m in Sources */,
 			);
@@ -539,11 +545,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3T7PG2G445;
 				INFOPLIST_FILE = FiveChessGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miaowu.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -552,11 +559,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3T7PG2G445;
 				INFOPLIST_FILE = FiveChessGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miaowu.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dxl.XLRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

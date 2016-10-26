@@ -56,7 +56,9 @@ static NSInteger deveiceTag;
         return YES;
     }
     NSLog(@"收到 %s %ld %@ %d ++++++%@",__FUNCTION__,tag,host,port,dataString);
-    
+    if (self.deviceInfoBlock) {
+        self.deviceInfoBlock(dataString);
+    }
     //收到消息后，自己可以走棋
     [[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"waiting"];
     

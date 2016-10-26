@@ -14,6 +14,7 @@
 
 @protocol reciveTagDelegate <NSObject>
 
+@optional
 - (void)reciveTag:(NSString *)tagString;
 - (void)noticationWin;
 
@@ -27,5 +28,6 @@
 
 -(void)setSendMessage;
 
+@property (nonatomic, copy) void (^deviceInfoBlock)(NSString *deviceInfo);
 
 @end

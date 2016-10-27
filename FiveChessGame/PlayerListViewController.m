@@ -26,6 +26,7 @@
 
 @implementation PlayerListViewController
 
+#pragma mark ViewDidLoad
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -47,16 +48,13 @@
     };
 }
 
+#pragma mark somethingMethods
 - (void)back
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
+#pragma mark tableViewDelegate Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.players.count;
@@ -80,6 +78,7 @@
     [self presentViewController:pre animated:YES completion:nil];
 }
 
+#pragma mark setter getter Methods
 - (UILabel *)topLabel
 {
     if (!_topLabel) {
@@ -121,6 +120,12 @@
         _players = @[].mutableCopy;
     }
     return _players;
+}
+
+#pragma mark dellec
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end

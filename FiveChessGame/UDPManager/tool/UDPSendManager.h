@@ -16,8 +16,8 @@
 
 +(UDPSendManager *)shareManager;
 
--(void)SendManagerWith:(NSString *)str WithIP:(NSString *)IP;
+-(void)sendManagerWith:(NSString *)str WithIP:(NSString *)IP;
 
--(void)SendFirstManagerWith;
+-(void)sendFirstManagerWith;
 
 @end

@@ -28,23 +28,42 @@
 #pragma mark - life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.topLabel];
     [self.view addSubview:self.playerList];
     [self.view addSubview:self.backButton];
     
+    //扫描周围玩家
+    [self scanPlayer];
+}
+
+#pragma mark - scanPlayer
+- (void)scanPlayer
+{
     [[UDPReciveManager shareManager] setSendMessage];
-    [[UDPSendManager shareManager] SendFirstManagerWith];
+    [[UDPSendManager shareManager] sendFirstManagerWith];
     
     __weak typeof (self) weakSelf = self;
     [UDPReciveManager shareManager].deviceInfoBlock = ^(NSString *device){
         
         if (weakSelf.players.count == 0) {
-              [[UDPSendManager shareManager] SendFirstManagerWith];
+            [[UDPSendManager shareManager] sendFirstManagerWith];
         }
-        [weakSelf.players addObject:device];
-        [weakSelf.playerList reloadData];
+        [weakSelf palyerDataHandle:device];
     };
+}
+
+- (void)palyerDataHandle:(NSString *)device
+{
+    if (self.players) {
+        for (NSString *value in self.players) {
+            if (![device isEqualToString:value]) {
+                [self.players addObject:device];
+            }
+        }
+    }
+    [self.playerList reloadData];
 }
 
 #pragma mark - somethingMethods
@@ -61,7 +80,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 30;
+    return 44;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

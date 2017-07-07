@@ -31,7 +31,7 @@
     
     [[UDPReciveManager shareManager] setSendMessage];
     [UDPReciveManager shareManager].delegate = self;
-    [[UDPSendManager shareManager] SendFirstManagerWith];
+    [[UDPSendManager shareManager] sendFirstManagerWith];
     
     [self initUI];
 }
@@ -64,11 +64,11 @@
                     NSLog(@"棋子坐标添加");
                     
                     NSString *buttonTagstr = [NSString stringWithFormat:@"%ld",(long)btn.tag];
-                    [[UDPSendManager shareManager] SendManagerWith:buttonTagstr WithIP:[[NSUserDefaults standardUserDefaults] valueForKey:@"otherIP"]];
+                    [[UDPSendManager shareManager] sendManagerWith:buttonTagstr WithIP:[[NSUserDefaults standardUserDefaults] valueForKey:@"otherIP"]];
                     
                     if ([[PlayManager shareManager] finalWinAtPoint:point]) {
                         NSLog(@"赢了");
-                        [[UDPSendManager shareManager] SendManagerWith:@"win" WithIP:[[NSUserDefaults standardUserDefaults] valueForKey:@"otherIP"]];
+                        [[UDPSendManager shareManager] sendManagerWith:@"win" WithIP:[[NSUserDefaults standardUserDefaults] valueForKey:@"otherIP"]];
                         [self win];
                     }
                 }

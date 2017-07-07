@@ -35,7 +35,7 @@ static AsyncUdpSocket * sendSouket;
     return manager;
     
 }
--(void)SendManagerWith:(NSString *)str WithIP:(NSString *)IP{
+-(void)sendManagerWith:(NSString *)str WithIP:(NSString *)IP{
     
     
     NSString * newStr = [[NSString alloc]initWithFormat:@"soul%@",str];
@@ -51,7 +51,7 @@ static AsyncUdpSocket * sendSouket;
     
     
 }
--(void)SendFirstManagerWith{
+-(void)sendFirstManagerWith{
 
 //    NSString *str = [NSString stringWithFormat:@"fi%@ mIP:%@ Devname:%@",[IPHelper deviceMAKAdress],[IPHelper deviceIPAdress],[[UIDevice alloc] init].name];
     NSString *str = [NSString stringWithFormat:@"Devname:%@",[[UIDevice alloc] init].name];

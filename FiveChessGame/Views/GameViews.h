@@ -10,10 +10,19 @@
 
 @interface GameViews : UIView
 
+/**
+ * 点击棋子处理
+ */
 @property (nonatomic, copy) void (^chessClickButtonBlock)(UIButton *chessButton);
 
+/**
+ * 重新开局处理
+ */
 @property (nonatomic, copy) void (^rePlayButtonBlock)(UIButton *rePlaybutton);
 
+/**
+ * 返回处理
+ */
 @property (nonatomic, copy) void (^backButtonBlock)(UIButton *backbutton);
 
 @end

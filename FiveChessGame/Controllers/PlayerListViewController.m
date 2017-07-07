@@ -7,26 +7,25 @@
 //
 
 #import "PlayerListViewController.h"
+
 #import "UDPSendManager.h"
 #import "UDPReciveManager.h"
 #import "GameViewController.h"
 
 @interface PlayerListViewController ()<UITableViewDelegate,UITableViewDataSource>
 
-
 @property (nonatomic, strong) UITableView *playerList;
-
 @property (nonatomic, strong) UILabel *topLabel;
+@property (nonatomic, strong) UIButton *backButton;
 
 @property (nonatomic, strong) NSMutableArray *players;
 
-@property (nonatomic, strong) UIButton *backButton;
 
 @end
 
 @implementation PlayerListViewController
 
-#pragma mark ViewDidLoad
+#pragma mark - life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -48,13 +47,13 @@
     };
 }
 
-#pragma mark somethingMethods
+#pragma mark - somethingMethods
 - (void)back
 {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-#pragma mark tableViewDelegate Methods
+#pragma mark - tableViewDelegate Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.players.count;

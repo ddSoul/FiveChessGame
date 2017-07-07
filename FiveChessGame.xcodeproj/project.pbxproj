@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE3CB1BB1DC07754008D0895 /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3CB1BA1DC07754008D0895 /* PlayerListViewController.m */; };
+		901D69541F0F6EC3007B86DB /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D69461F0F6EC3007B86DB /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		901D69551F0F6EC3007B86DB /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D69481F0F6EC3007B86DB /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		901D69561F0F6EC3007B86DB /* DeveiceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D694A1F0F6EC3007B86DB /* DeveiceDataModel.m */; };
+		901D69571F0F6EC3007B86DB /* IPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D694C1F0F6EC3007B86DB /* IPHelper.m */; };
+		901D69581F0F6EC3007B86DB /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D694E1F0F6EC3007B86DB /* NetWorkHelper.m */; };
+		901D69591F0F6EC3007B86DB /* UDPReciveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D69511F0F6EC3007B86DB /* UDPReciveManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		901D695A1F0F6EC3007B86DB /* UDPSendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D69531F0F6EC3007B86DB /* UDPSendManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		901D69651F0F6F29007B86DB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D695D1F0F6F29007B86DB /* GameViewController.m */; };
+		901D69661F0F6F29007B86DB /* PlayerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D695F1F0F6F29007B86DB /* PlayerListViewController.m */; };
+		901D69671F0F6F29007B86DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D69611F0F6F29007B86DB /* ViewController.m */; };
+		901D69681F0F6F29007B86DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D69641F0F6F29007B86DB /* AppDelegate.m */; };
 		EE3D5BD71DB6201E0056968C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BD61DB6201E0056968C /* main.m */; };
-		EE3D5BDA1DB6201E0056968C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BD91DB6201E0056968C /* AppDelegate.m */; };
-		EE3D5BDD1DB6201E0056968C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BDC1DB6201E0056968C /* ViewController.m */; };
 		EE3D5BE01DB6201E0056968C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3D5BDE1DB6201E0056968C /* Main.storyboard */; };
 		EE3D5BE21DB6201E0056968C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3D5BE11DB6201E0056968C /* Assets.xcassets */; };
 		EE3D5BE51DB6201E0056968C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3D5BE31DB6201E0056968C /* LaunchScreen.storyboard */; };
 		EE3D5BF01DB6201E0056968C /* FiveChessGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BEF1DB6201E0056968C /* FiveChessGameTests.m */; };
 		EE3D5BFB1DB6201E0056968C /* FiveChessGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3D5BFA1DB6201E0056968C /* FiveChessGameUITests.m */; };
 		EE5FEB951DB734E700051710 /* GameViews.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB941DB734E700051710 /* GameViews.m */; };
-		EE5FEB981DB7378400051710 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB971DB7378400051710 /* GameViewController.m */; };
 		EE5FEBA11DB7549700051710 /* MyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB9B1DB7549700051710 /* MyPoint.m */; };
 		EE5FEBA21DB7549700051710 /* PlayData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB9D1DB7549700051710 /* PlayData.m */; };
 		EE5FEBA31DB7549700051710 /* PlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEB9F1DB7549700051710 /* PlayManager.m */; };
-		EE5FEBAC1DB7557D00051710 /* UDPSendManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBAB1DB7557D00051710 /* UDPSendManager.m */; };
-		EE5FEBAF1DB7559100051710 /* UDPReciveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBAE1DB7559100051710 /* UDPReciveManager.m */; };
-		EE5FEBB71DB7560200051710 /* DeveiceDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBB21DB7560200051710 /* DeveiceDataModel.m */; };
-		EE5FEBB81DB7560200051710 /* IPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBB41DB7560200051710 /* IPHelper.m */; };
-		EE5FEBB91DB7560200051710 /* NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBB61DB7560200051710 /* NetWorkHelper.m */; };
-		EE5FEBC41DB7618B00051710 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBC11DB7618B00051710 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		EE5FEBC51DB7618B00051710 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FEBC31DB7618B00051710 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +48,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE3CB1B91DC07754008D0895 /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
-		EE3CB1BA1DC07754008D0895 /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+		901D69451F0F6EC3007B86DB /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		901D69461F0F6EC3007B86DB /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		901D69471F0F6EC3007B86DB /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		901D69481F0F6EC3007B86DB /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		901D69491F0F6EC3007B86DB /* DeveiceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveiceDataModel.h; sourceTree = "<group>"; };
+		901D694A1F0F6EC3007B86DB /* DeveiceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveiceDataModel.m; sourceTree = "<group>"; };
+		901D694B1F0F6EC3007B86DB /* IPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHelper.h; sourceTree = "<group>"; };
+		901D694C1F0F6EC3007B86DB /* IPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHelper.m; sourceTree = "<group>"; };
+		901D694D1F0F6EC3007B86DB /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
+		901D694E1F0F6EC3007B86DB /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
+		901D69501F0F6EC3007B86DB /* UDPReciveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPReciveManager.h; sourceTree = "<group>"; };
+		901D69511F0F6EC3007B86DB /* UDPReciveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPReciveManager.m; sourceTree = "<group>"; };
+		901D69521F0F6EC3007B86DB /* UDPSendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPSendManager.h; sourceTree = "<group>"; };
+		901D69531F0F6EC3007B86DB /* UDPSendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPSendManager.m; sourceTree = "<group>"; };
+		901D695C1F0F6F29007B86DB /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		901D695D1F0F6F29007B86DB /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		901D695E1F0F6F29007B86DB /* PlayerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerListViewController.h; sourceTree = "<group>"; };
+		901D695F1F0F6F29007B86DB /* PlayerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerListViewController.m; sourceTree = "<group>"; };
+		901D69601F0F6F29007B86DB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		901D69611F0F6F29007B86DB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		901D69631F0F6F29007B86DB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		901D69641F0F6F29007B86DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EE3D5BD21DB6201E0056968C /* FiveChessGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveChessGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3D5BD61DB6201E0056968C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE3D5BD81DB6201E0056968C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EE3D5BD91DB6201E0056968C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE3D5BDB1DB6201E0056968C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE3D5BDC1DB6201E0056968C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE3D5BDF1DB6201E0056968C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE3D5BE11DB6201E0056968C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3D5BE41DB6201E0056968C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,8 +84,6 @@
 		EE3D5BFC1DB6201E0056968C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5FEB931DB734E700051710 /* GameViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViews.h; sourceTree = "<group>"; };
 		EE5FEB941DB734E700051710 /* GameViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViews.m; sourceTree = "<group>"; };
-		EE5FEB961DB7378400051710 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		EE5FEB971DB7378400051710 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		EE5FEB9A1DB7549700051710 /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
 		EE5FEB9B1DB7549700051710 /* MyPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPoint.m; sourceTree = "<group>"; };
 		EE5FEB9C1DB7549700051710 /* PlayData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayData.h; sourceTree = "<group>"; };
@@ -77,20 +91,6 @@
 		EE5FEB9E1DB7549700051710 /* PlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayManager.h; sourceTree = "<group>"; };
 		EE5FEB9F1DB7549700051710 /* PlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayManager.m; sourceTree = "<group>"; };
 		EE5FEBA81DB754FD00051710 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		EE5FEBAA1DB7557D00051710 /* UDPSendManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPSendManager.h; sourceTree = "<group>"; };
-		EE5FEBAB1DB7557D00051710 /* UDPSendManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPSendManager.m; sourceTree = "<group>"; };
-		EE5FEBAD1DB7559100051710 /* UDPReciveManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPReciveManager.h; sourceTree = "<group>"; };
-		EE5FEBAE1DB7559100051710 /* UDPReciveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPReciveManager.m; sourceTree = "<group>"; };
-		EE5FEBB11DB7560200051710 /* DeveiceDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveiceDataModel.h; sourceTree = "<group>"; };
-		EE5FEBB21DB7560200051710 /* DeveiceDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveiceDataModel.m; sourceTree = "<group>"; };
-		EE5FEBB31DB7560200051710 /* IPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHelper.h; sourceTree = "<group>"; };
-		EE5FEBB41DB7560200051710 /* IPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHelper.m; sourceTree = "<group>"; };
-		EE5FEBB51DB7560200051710 /* NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHelper.h; sourceTree = "<group>"; };
-		EE5FEBB61DB7560200051710 /* NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHelper.m; sourceTree = "<group>"; };
-		EE5FEBC01DB7618B00051710 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		EE5FEBC11DB7618B00051710 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		EE5FEBC21DB7618B00051710 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
-		EE5FEBC31DB7618B00051710 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +118,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		901D69441F0F6EC3007B86DB /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				901D69451F0F6EC3007B86DB /* AsyncSocket.h */,
+				901D69461F0F6EC3007B86DB /* AsyncSocket.m */,
+				901D69471F0F6EC3007B86DB /* AsyncUdpSocket.h */,
+				901D69481F0F6EC3007B86DB /* AsyncUdpSocket.m */,
+				901D69491F0F6EC3007B86DB /* DeveiceDataModel.h */,
+				901D694A1F0F6EC3007B86DB /* DeveiceDataModel.m */,
+				901D694B1F0F6EC3007B86DB /* IPHelper.h */,
+				901D694C1F0F6EC3007B86DB /* IPHelper.m */,
+				901D694D1F0F6EC3007B86DB /* NetWorkHelper.h */,
+				901D694E1F0F6EC3007B86DB /* NetWorkHelper.m */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		901D694F1F0F6EC3007B86DB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				901D69501F0F6EC3007B86DB /* UDPReciveManager.h */,
+				901D69511F0F6EC3007B86DB /* UDPReciveManager.m */,
+				901D69521F0F6EC3007B86DB /* UDPSendManager.h */,
+				901D69531F0F6EC3007B86DB /* UDPSendManager.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		901D695B1F0F6F29007B86DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				901D695C1F0F6F29007B86DB /* GameViewController.h */,
+				901D695D1F0F6F29007B86DB /* GameViewController.m */,
+				901D695E1F0F6F29007B86DB /* PlayerListViewController.h */,
+				901D695F1F0F6F29007B86DB /* PlayerListViewController.m */,
+				901D69601F0F6F29007B86DB /* ViewController.h */,
+				901D69611F0F6F29007B86DB /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		901D69621F0F6F29007B86DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				901D69631F0F6F29007B86DB /* AppDelegate.h */,
+				901D69641F0F6F29007B86DB /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		EE3D5BC91DB6201E0056968C = {
 			isa = PBXGroup;
 			children = (
@@ -142,17 +192,11 @@
 		EE3D5BD41DB6201E0056968C /* FiveChessGame */ = {
 			isa = PBXGroup;
 			children = (
+				901D695B1F0F6F29007B86DB /* Controllers */,
+				901D69621F0F6F29007B86DB /* Main */,
 				EE5FEB991DB7549700051710 /* GameKernel */,
 				EE5FEBA01DB7549700051710 /* UDPManager */,
 				EE5FEB921DB734C600051710 /* Views */,
-				EE3D5BD81DB6201E0056968C /* AppDelegate.h */,
-				EE3D5BD91DB6201E0056968C /* AppDelegate.m */,
-				EE3D5BDB1DB6201E0056968C /* ViewController.h */,
-				EE3D5BDC1DB6201E0056968C /* ViewController.m */,
-				EE5FEB961DB7378400051710 /* GameViewController.h */,
-				EE5FEB971DB7378400051710 /* GameViewController.m */,
-				EE3CB1B91DC07754008D0895 /* PlayerListViewController.h */,
-				EE3CB1BA1DC07754008D0895 /* PlayerListViewController.m */,
 				EE3D5BDE1DB6201E0056968C /* Main.storyboard */,
 				EE3D5BE11DB6201E0056968C /* Assets.xcassets */,
 				EE3D5BE31DB6201E0056968C /* LaunchScreen.storyboard */,
@@ -213,11 +257,8 @@
 		EE5FEBA01DB7549700051710 /* UDPManager */ = {
 			isa = PBXGroup;
 			children = (
-				EE5FEBB01DB7560200051710 /* tool */,
-				EE5FEBAA1DB7557D00051710 /* UDPSendManager.h */,
-				EE5FEBAB1DB7557D00051710 /* UDPSendManager.m */,
-				EE5FEBAD1DB7559100051710 /* UDPReciveManager.h */,
-				EE5FEBAE1DB7559100051710 /* UDPReciveManager.m */,
+				901D69441F0F6EC3007B86DB /* Third */,
+				901D694F1F0F6EC3007B86DB /* Tool */,
 			);
 			path = UDPManager;
 			sourceTree = "<group>";
@@ -228,23 +269,6 @@
 				EE5FEBA81DB754FD00051710 /* CFNetwork.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EE5FEBB01DB7560200051710 /* tool */ = {
-			isa = PBXGroup;
-			children = (
-				EE5FEBC01DB7618B00051710 /* AsyncSocket.h */,
-				EE5FEBC11DB7618B00051710 /* AsyncSocket.m */,
-				EE5FEBC21DB7618B00051710 /* AsyncUdpSocket.h */,
-				EE5FEBC31DB7618B00051710 /* AsyncUdpSocket.m */,
-				EE5FEBB11DB7560200051710 /* DeveiceDataModel.h */,
-				EE5FEBB21DB7560200051710 /* DeveiceDataModel.m */,
-				EE5FEBB31DB7560200051710 /* IPHelper.h */,
-				EE5FEBB41DB7560200051710 /* IPHelper.m */,
-				EE5FEBB51DB7560200051710 /* NetWorkHelper.h */,
-				EE5FEBB61DB7560200051710 /* NetWorkHelper.m */,
-			);
-			path = tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,21 +408,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5FEBA21DB7549700051710 /* PlayData.m in Sources */,
+				901D69541F0F6EC3007B86DB /* AsyncSocket.m in Sources */,
 				EE5FEBA31DB7549700051710 /* PlayManager.m in Sources */,
 				EE5FEBA11DB7549700051710 /* MyPoint.m in Sources */,
-				EE5FEBAF1DB7559100051710 /* UDPReciveManager.m in Sources */,
-				EE5FEBB91DB7560200051710 /* NetWorkHelper.m in Sources */,
-				EE5FEB981DB7378400051710 /* GameViewController.m in Sources */,
+				901D69681F0F6F29007B86DB /* AppDelegate.m in Sources */,
+				901D69581F0F6EC3007B86DB /* NetWorkHelper.m in Sources */,
+				901D69651F0F6F29007B86DB /* GameViewController.m in Sources */,
 				EE5FEB951DB734E700051710 /* GameViews.m in Sources */,
-				EE3D5BDD1DB6201E0056968C /* ViewController.m in Sources */,
-				EE3D5BDA1DB6201E0056968C /* AppDelegate.m in Sources */,
-				EE5FEBB71DB7560200051710 /* DeveiceDataModel.m in Sources */,
-				EE5FEBB81DB7560200051710 /* IPHelper.m in Sources */,
+				901D69661F0F6F29007B86DB /* PlayerListViewController.m in Sources */,
+				901D695A1F0F6EC3007B86DB /* UDPSendManager.m in Sources */,
+				901D69671F0F6F29007B86DB /* ViewController.m in Sources */,
+				901D69551F0F6EC3007B86DB /* AsyncUdpSocket.m in Sources */,
+				901D69591F0F6EC3007B86DB /* UDPReciveManager.m in Sources */,
+				901D69561F0F6EC3007B86DB /* DeveiceDataModel.m in Sources */,
+				901D69571F0F6EC3007B86DB /* IPHelper.m in Sources */,
 				EE3D5BD71DB6201E0056968C /* main.m in Sources */,
-				EE5FEBAC1DB7557D00051710 /* UDPSendManager.m in Sources */,
-				EE3CB1BB1DC07754008D0895 /* PlayerListViewController.m in Sources */,
-				EE5FEBC51DB7618B00051710 /* AsyncUdpSocket.m in Sources */,
-				EE5FEBC41DB7618B00051710 /* AsyncSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+
 #import "PlayData.h"
 #import "PlayManager.h"
 #import "GameViewController.h"
@@ -27,7 +28,6 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
 }
 
 
@@ -35,7 +35,6 @@
     [super didReceiveMemoryWarning];
     
 }
-
 
 - (IBAction)add:(UIButton *)sender {
     
